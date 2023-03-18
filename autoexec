@@ -1,5 +1,5 @@
 //MOUSE SETTINGS
-sensitivity "1.25" // mouse sensitivity
+sensitivity "1.5" // mouse sensitivity
 zoom_sensitivity_ratio_mouse "0.8189330279" // mouse sensitivity while scoping
 m_rawinput "1" // enable [1] or disable [0] direct mouse sensitivity
 m_customaccel "0" // enable [1] or disable [0] mouse acceleration
