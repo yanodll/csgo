@@ -142,6 +142,12 @@ bind "z" "use weapon_knife;use weapon_flashbang; buy flashbang" // quick use and
 bind "x" "use weapon_knife;use weapon_hegrenade; buy hegrenade" // quick use and buy hegrenade
 bind "c" "use weapon_knife;use weapon_molotov;use weapon_incgrenade; buy molotov; buy incgrenade" // quick use and buy molotov or incgrenade
 bind "v" "use weapon_knife;use weapon_smokegrenade; buy smokegrenade" // quick use and buy smokegrenade
+bind "-" "toggle cl_crosshaircolor 0 1 2 3 4 5" // change crosshair color
+bind "0" "toggle cl_crosshairstyle 1 2 3 4 5" // change crosshair style
+bind "9" "toggle cl_crosshairdot 0 1" // enable [1] or disable [0] crosshair dot
+bind "8" "toggle cl_crosshairthickness 0.5 1.0" // change crosshair thickness
+bind "7" "toggle cl_crosshairgap -8.5 -7.5 -6.5 -5.5 -4.5 -3.5 -2.5 -1.5 -0.5" // change crosshair gap
+bind "6" "toggle cl_crosshairsize 0.5 1.0 1.5 2.0 2.5 3.0" // change crosshair size
 bind "j" "+jump;-attack;-attack2;-jump" // jumpthrow
 bind "h" "+forwardjumpthrow" // walkjumpthrow
 alias "+forwardjumpthrow" "+forward;+jump;-attack" 
